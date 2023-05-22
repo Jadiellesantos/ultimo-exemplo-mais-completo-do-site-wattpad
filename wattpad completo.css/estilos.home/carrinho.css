@@ -1,0 +1,47 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+#cabe{
+    color: black;
+}
+#banner{
+    height: 600px;
+    background-image: url("../imagens/watts.png");
+    background-size: cover;
+    background-position: center;
+}
+#passos, #coracao, #narnia, #amor, #aselecao, #comum {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#passos{
+    width: 400px;
+    height: 400px;
+    background-image: url(../imagens.carrinho/cinco.jpg);
+}
+#coracao{
+    width: 400px;
+    height: 400px;
+    background-image: url(../imagens.carrinho/coracao.jpg);
+}
+#narnia{
+    width: 400px;
+    height: 500px;
+    background-image: url(../imagens.carrinho/narnia.jpg);
+}
+
+#amor{
+    width: 400px;
+    height: 520px;
+    background-image: url(../imagens.carrinho/amor.jpg);
+}
+@media screen and (max-width : 600px){
+    .navbar-nav{
+    margin: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+}

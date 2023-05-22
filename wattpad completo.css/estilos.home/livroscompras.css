@@ -1,0 +1,81 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+#cabe{
+    color: black;
+}
+#banner{
+    height: 600px;
+    background-image: url("../imagens/watts.png");
+    background-size: cover;
+    background-position: center;
+}
+#coraline, #bela, #mar, #capapreta, #aselecao, #comum {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#coraline{
+    height: 700px;
+    background-image: url(../imagens.compras/coraline.jpg);
+}
+#bela{
+    height: 700px;
+    background-image: url(../imagens.compras/bela.jpg);
+}
+#mar{
+    height: 700px;
+    background-image: url(../imagens.compras/mar.png);
+}
+
+#capapreta{
+    height: 700px;
+    background-image: url(../imagens.compras/capapreta.png);
+}
+
+#aselecao{
+    height: 700px;
+    background-image: url(../imagens.compras/Aseleção.png);
+}
+
+#comum{
+    height: 700px;
+    background-image: url(../imagens.compras/comum.webp);
+}
+@media screen and (max-width : 600px) {
+    .navbar-nav{
+        margin: 10px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+    main {
+        flex-wrap: wrap;
+    }
+    #coraline{
+        width: 700px;
+        height: 700px;
+    }
+    #bela{
+        width: 700px;
+        height: 700px;
+    }
+    #mar{
+        width: 700px;
+        height: 500px;
+    }
+    #capapreta{
+        width: 700px;
+        height: 500px;
+    }
+    #aselecao{
+        width: 700px;
+        height: 500px;
+    }
+    #comum{
+        width: 700px;
+        height: 500px;
+    }
+}
+

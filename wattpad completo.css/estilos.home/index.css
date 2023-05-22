@@ -1,0 +1,65 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+#cabe{
+    color: black;
+}
+#banner{
+    height: 600px;
+    background-image: url("../imagens/watts.png");
+    background-size: cover;
+    background-position: center;
+}
+#verao, #meulado, #passada, #noiva, #antes, #livro{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#verao{
+    height: 700px;
+    background-image: url(../imagens/verao.webp);
+}
+#meulado{
+    height: 700px;
+    background-image: url(../imagens/meulado.webp);
+}
+#passada{
+    height: 700px;
+    background-image: url(../imagens/passada.webp);
+}
+#noiva{
+    height: 700px;
+    background-image: url(..//imagens/noiva.webp);
+}
+#antes{
+    width: 750px;
+    height: 1000px;
+    background-image: url(../imagens/antes.jpg);
+}
+#livro{
+    width: 750px;
+    height: 1000px;
+    background-image: url(../imagens/livro.webp);
+}
+
+#cor{
+    background-color: #fd7e14;
+}
+@media screen and (max-width : 600px) {
+    #banner{
+        height: 200px;
+    }
+    .navbar-nav{
+        margin: 10px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+    #antes{
+        height: 400px;
+    }
+    #livro{
+        height: 400px;
+    }
+}

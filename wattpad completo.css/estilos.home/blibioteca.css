@@ -1,0 +1,75 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+#cabe{
+    color: black;
+}
+#banner{
+    height: 600px;
+    background-image: url("../imagens/watts.png");
+    background-size: cover;
+    background-position: center;
+}
+#bosque, #obs, #sol, #olhar, #navio, #arvore{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#bosque{
+    height: 700px;
+    background-image: url(../imagens/bosque.jpg);
+}
+#obs{
+    height: 700px;
+    background-image: url(../imagens/obs.webp);
+}
+#sol{
+    height: 700px;
+    background-image: url(../imagens/sol.webp);
+}
+#olhar{
+    height: 700px;
+    background-image: url(..//imagens/olhar.webp);
+}
+
+#navio{
+    height: 700px;
+    background-image: url(../imagens/navio.avif);
+}
+#arvore{
+    height: 700px;
+    background-image: url(../imagens/arvore.jpg);
+}
+@media screen and (max-width : 600px) {
+    .navbar-nav{
+        margin: 10px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+    #bosque{
+        width: 700px;
+        height: 700px;
+    }
+    #obs{
+        width: 700px;
+        height: 700px;
+    }
+    #sol{
+        width: 700px;
+        height: 500px;
+    }
+    #olhar{
+        width: 700px;
+        height: 500px;
+    }
+    #navio{
+        width: 700px;
+        height: 500px;
+    }
+    #arvore{
+        width: 700px;
+        height: 500px;
+    }
+}

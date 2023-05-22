@@ -1,0 +1,8 @@
+@media screen and (max-width : 600px){
+    .navbar-nav{
+    margin: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+}
